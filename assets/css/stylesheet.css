@@ -1,0 +1,53 @@
+
+:root {
+    --primary-color: #fce138;
+    --secondary-color: #024e76;
+    --tertiary-color: gray;
+  }
+
+
+  
+header {
+    padding: 20px 35px;
+    background-color: var(--tertiary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+  }
+  
+  header h1 {
+      font-size: xx-large;
+      font-family: fantasy;
+  }
+
+  header nav {
+      font-size: x-large;
+      font-family: fantasy;
+  }
+
+header nav ul {     
+      display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    }
+
+header nav ul li a {
+    margin: 10px;
+    padding: 10px;
+
+}
+  
+.hero {
+    background-image: url("../images/blue.jpg");
+    width: 100%;
+    height: 300px;
+}

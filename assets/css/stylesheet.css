@@ -54,6 +54,20 @@ header nav ul li a {
     height: 300px;
 }
 
+content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+
+.runbuddy {
+  image-resolution: 350x350;
+}
+
+
+
+
 footer {
     background: var(--primary-color);
     display: flex;
